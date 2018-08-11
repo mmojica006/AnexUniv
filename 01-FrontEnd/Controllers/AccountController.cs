@@ -13,12 +13,16 @@ using Model.Auth;
 using Auth.Service;
 using Newtonsoft.Json;
 using Common;
+using Service;
+using FrontEnd.App_Start;
 
 namespace FrontEnd.Controllers
 {
     [Authorize]
     public class AccountController : Controller
     {
+        private readonly IUserService _userService = DependecyFactory.GetInstance<IUserService>();
+
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -105,6 +109,43 @@ namespace FrontEnd.Controllers
             }
         }
 
+        public async Task<ActionResult> Get()
+        {
+            var userId = CurrentUserHelper.Get.UserId;
+            var model = await UserManager.FindByIdAsync(userId);
+
+            return View(new UserBasicInformationViewModel
+            {
+                Id = model.Id,
+                Name = model.Name,
+                LastName = model.LastName
+            });
+        }
+
+        [HttpPost]
+        public JsonResult Update(UserBasicInformationViewModel model)
+        {
+            var rh = new ResponseHelper();
+
+            if (ModelState.IsValid)
+            {
+                rh = _userService.Update(new ApplicationUser
+                {
+                    Id = model.Id,
+                    Name = model.Name,
+                    LastName = model.LastName
+                });
+            }
+            else
+            {
+                rh.SetValidations(ModelState.GetErrors());
+            }
+
+            return Json(rh);
+        }
+
+
+
         //
         // GET: /Account/VerifyCode
         [AllowAnonymous]
@@ -117,6 +158,7 @@ namespace FrontEnd.Controllers
             }
             return View(new VerifyCodeViewModel { Provider = provider, ReturnUrl = returnUrl, RememberMe = rememberMe });
         }
+
 
         //
         // POST: /Account/VerifyCode
@@ -165,7 +207,16 @@ namespace FrontEnd.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser {
+                    Name= model.Name,
+                    LastName = model.LastName,
+                    UserName = model.Email,
+                    Email = model.Email,
+                    Credit = Parameters.NewUserCredits
+
+                };
+
+
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

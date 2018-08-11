@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Common.CustomFilters;
+using Model.Helper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Model.Domain
 {
-   public  class LessonsPerCourse
+   public  class LessonsPerCourse : AuditEntity, ISoftDeleted
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -15,7 +17,7 @@ namespace Model.Domain
 
         public Course Course { get; set; } //una lección solo pertenece a un curso  
         public int CourseId { get; set; }
+        public bool Deleted { get; set; }
 
- 
     }
 }

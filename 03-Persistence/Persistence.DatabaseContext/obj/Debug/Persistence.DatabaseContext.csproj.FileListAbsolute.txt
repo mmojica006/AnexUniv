@@ -47,3 +47,5 @@ C:\Desarrollos\AnexUniv\03-Persistence\Persistence.DatabaseContext\obj\Debug\Per
 C:\Desarrollos\AnexUniv\03-Persistence\Persistence.DatabaseContext\obj\Debug\Persistence.DatabaseContext.csproj.CoreCompileInputs.cache
 C:\Desarrollos\AnexUniv\03-Persistence\Persistence.DatabaseContext\obj\Debug\Persistence.DatabaseContext.csproj.CopyComplete
 C:\Desarrollos\AnexUniv\03-Persistence\Persistence.DatabaseContext\obj\Debug\Persistence.DatabaseContext.Migrations.SprintV10.resources
+C:\Desarrollos\AnexUniv\03-Persistence\Persistence.DatabaseContext\obj\Debug\Persistence.DatabaseContext.Migrations.SprintV20.resources
+C:\Desarrollos\AnexUniv\03-Persistence\Persistence.DatabaseContext\obj\Debug\Persistence.DatabaseContext.Migrations.SprintV3.resources

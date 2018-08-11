@@ -17,6 +17,6 @@ namespace Model.Auth
 
         public string  Name { get; set; }
         public string LastName { get; set; }
-        public string Credit { get; set; }
+        public decimal Credit { get; set; }
     }
 }
