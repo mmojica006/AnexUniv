@@ -32,6 +32,8 @@ D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csprojResolveAssemblyReference.cache
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.dll
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.pdb
+C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csprojAssemblyReference.cache
+C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csproj.CoreCompileInputs.cache
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\Auth.Service.dll.config
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\Auth.Service.dll
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\Auth.Service.pdb
@@ -61,8 +63,6 @@ C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\Microsoft.Owin.Securit
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\NLog.xml
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\LightInject.pdb
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\LightInject.xml
+C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csproj.CopyComplete
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.dll
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.pdb
-C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csprojAssemblyReference.cache
-C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csproj.CoreCompileInputs.cache
-C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csproj.CopyComplete

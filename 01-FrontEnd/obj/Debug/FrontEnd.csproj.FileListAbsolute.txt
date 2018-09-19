@@ -97,6 +97,8 @@ D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\01-FrontEn
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.csprojResolveAssemblyReference.cache
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.dll
 D:\Mis Cursos\ASP.NET MVC + VueJs\02. Levantando el proyecto\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.pdb
+C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.csprojAssemblyReference.cache
+C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\roslyn\csc.exe
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\roslyn\csc.exe.config
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\roslyn\csc.rsp
@@ -162,7 +164,9 @@ C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Persistence.DbContextScope.dll
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Persistence.Repository.dll
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\EntityFramework.DynamicFilters.dll
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Auth.Service.pdb
+C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Auth.Service.dll.config
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Service.pdb
+C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Service.dll.config
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Common.pdb
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Model.pdb
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Persistence.DatabaseContext.pdb
@@ -193,10 +197,6 @@ C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Persistence.DbContextScope.pdb
 C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Persistence.Repository.pdb
+C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete
 C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.dll
 C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.pdb
-C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Auth.Service.dll.config
-C:\Desarrollos\AnexUniv\01-FrontEnd\bin\Service.dll.config
-C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.csprojAssemblyReference.cache
-C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.csproj.CoreCompileInputs.cache
-C:\Desarrollos\AnexUniv\01-FrontEnd\obj\Debug\FrontEnd.csproj.CopyComplete

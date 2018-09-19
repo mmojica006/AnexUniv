@@ -25,7 +25,7 @@ namespace Model.Domain
         public decimal Vote { get; set; }
 
         public Category Category { get; set; }
-        public int CategoryId { get; set; }
+        public int CategoryId { get; set; } //clave foranea
 
 
         public ICollection<LessonsPerCourse> Lessons { get; set; } //nuestro curso puede tener varias lecciones

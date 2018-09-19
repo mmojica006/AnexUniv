@@ -22,8 +22,7 @@ C:\Desarrollos\AnexUniv\04-Common\Common\bin\Debug\LightInject.pdb
 C:\Desarrollos\AnexUniv\04-Common\Common\bin\Debug\LightInject.xml
 C:\Desarrollos\AnexUniv\04-Common\Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Desarrollos\AnexUniv\04-Common\Common\bin\Debug\Newtonsoft.Json.xml
-C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.dll
-C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.pdb
 C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.csproj.CopyComplete
-C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.dll
+C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.pdb

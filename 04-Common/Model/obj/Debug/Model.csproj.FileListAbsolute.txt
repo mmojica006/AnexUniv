@@ -35,8 +35,8 @@ C:\Desarrollos\AnexUniv\04-Common\Model\bin\Debug\Microsoft.AspNet.Identity.Enti
 C:\Desarrollos\AnexUniv\04-Common\Model\bin\Debug\Newtonsoft.Json.xml
 C:\Desarrollos\AnexUniv\04-Common\Model\bin\Debug\LightInject.pdb
 C:\Desarrollos\AnexUniv\04-Common\Model\bin\Debug\LightInject.xml
-C:\Desarrollos\AnexUniv\04-Common\Model\obj\Debug\Model.dll
-C:\Desarrollos\AnexUniv\04-Common\Model\obj\Debug\Model.pdb
 C:\Desarrollos\AnexUniv\04-Common\Model\obj\Debug\Model.csprojAssemblyReference.cache
 C:\Desarrollos\AnexUniv\04-Common\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Desarrollos\AnexUniv\04-Common\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Desarrollos\AnexUniv\04-Common\Model\obj\Debug\Model.dll
+C:\Desarrollos\AnexUniv\04-Common\Model\obj\Debug\Model.pdb

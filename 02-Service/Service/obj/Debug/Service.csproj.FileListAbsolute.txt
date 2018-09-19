@@ -73,8 +73,8 @@ C:\Desarrollos\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.Coo
 C:\Desarrollos\AnexUniv\02-Service\Service\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\Desarrollos\AnexUniv\02-Service\Service\bin\Debug\Newtonsoft.Json.xml
 C:\Desarrollos\AnexUniv\02-Service\Service\bin\Debug\NLog.xml
-C:\Desarrollos\AnexUniv\02-Service\Service\obj\Debug\Service.dll
-C:\Desarrollos\AnexUniv\02-Service\Service\obj\Debug\Service.pdb
 C:\Desarrollos\AnexUniv\02-Service\Service\obj\Debug\Service.csprojAssemblyReference.cache
 C:\Desarrollos\AnexUniv\02-Service\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
 C:\Desarrollos\AnexUniv\02-Service\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Desarrollos\AnexUniv\02-Service\Service\obj\Debug\Service.dll
+C:\Desarrollos\AnexUniv\02-Service\Service\obj\Debug\Service.pdb

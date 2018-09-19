@@ -15,7 +15,7 @@ namespace Model.Domain
         public Enums.EntityType EntityType { get; set; }
         public Enums.IncomeType IncomeType { get; set; }
         public decimal Total { get; set; }
-        public int EntityID { get; set; }
+        public int EntityID { get; set; } //a que id de que tabla hace referencia
         public bool Deleted { get; set; }
     }
 }
