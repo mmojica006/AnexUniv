@@ -19,7 +19,7 @@ namespace Service.Config
             container.Register<IRepository<ApplicationRole>>((x) => new Repository<ApplicationRole>(ambientDbContextLocator));
             container.Register<IRepository<ApplicationUserRole>>((x) => new Repository<ApplicationUserRole>(ambientDbContextLocator));
 
-            container.Register<IUserService, UserService>();
+            container.Register<IUserService, UserService>();//Todas las clases que implementen esta interface pueden ser registradas
 
         }
 

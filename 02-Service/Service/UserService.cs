@@ -36,7 +36,7 @@ namespace Service
 
         public ResponseHelper Update(ApplicationUser model)
         {
-            var rh = new ResponseHelper();
+            var rh = new ResponseHelper(); //por defecto al instanciar esto es falso
 
             try
             {

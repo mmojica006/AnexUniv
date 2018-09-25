@@ -1,7 +1,9 @@
-﻿using System.Web.Mvc;
+﻿using Common;
+using System.Web.Mvc;
 
 namespace FrontEnd.Controllers
 {
+    [Authorize(Roles =RolesNames.Teacher)]
     public class InstructorController : Controller
     {
         // GET: Course

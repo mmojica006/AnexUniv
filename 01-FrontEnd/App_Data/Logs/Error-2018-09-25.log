@@ -1,0 +1,8 @@
+[ERROR] 04:48:52.956:
+- Auth.Service.ApplicationUserManager.CreateWithDefaultRole (Line #0)
+- La secuencia no contiene elementos
+ 
+[ERROR] 04:49:08.270:
+- Auth.Service.ApplicationUserManager.CreateWithDefaultRole (Line #0)
+- La secuencia no contiene elementos
+ 
