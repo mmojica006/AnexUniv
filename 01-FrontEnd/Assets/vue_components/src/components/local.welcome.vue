@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'welcome',
+  name: "welcome",
   props: {
     project: {
       type: String,
@@ -20,9 +20,9 @@ export default {
     }
   },
   mounted() {
-    this.$parent.$on('welcomeSelectedID', x => {
+    this.$parent.$on("welcomeSelectedID", x => {
       this.project = x;
-    })
+    });
   }
-}
+};
 </script>
