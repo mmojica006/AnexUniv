@@ -26,3 +26,4 @@ C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.csproj.CoreCompileInpu
 C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.csproj.CopyComplete
 C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.dll
 C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.pdb
+C:\Desarrollos\AnexUniv\04-Common\Common\obj\Debug\Common.csprojAssemblyReference.cache

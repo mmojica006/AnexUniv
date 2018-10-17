@@ -66,3 +66,4 @@ C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\LightInject.xml
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.csproj.CopyComplete
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.dll
 C:\Desarrollos\AnexUniv\02-Service\Auth.Service\obj\Debug\Auth.Service.pdb
+C:\Desarrollos\AnexUniv\02-Service\Auth.Service\bin\Debug\Newtonsoft.Json.dll
