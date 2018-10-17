@@ -18,6 +18,7 @@ namespace Service
     public interface IUserService {
 
         ResponseHelper Update(ApplicationUser model);
+        AnexGRIDResponde GetAll(AnexGRID grid);
     }
    public class UserService:IUserService 
     {
@@ -36,7 +37,7 @@ namespace Service
 
         public ResponseHelper Update(ApplicationUser model)
         {
-            var rh = new ResponseHelper();
+            var rh = new ResponseHelper(); //por defecto al instanciar esto es falso
 
             try
             {
@@ -61,6 +62,65 @@ namespace Service
 
             return rh;
         }
+        public AnexGRIDResponde GetAll(AnexGRID grid)
+        {
+            grid.Inicializar();
 
+            try
+            {
+                using (var ctx = _dbContextScopeFactory.CreateReadOnly())
+                {
+                    var user = ctx.GetEntity<ApplicationUser>();
+                    var roles = ctx.GetEntity<ApplicationRole>();
+                    var userRoles = ctx.GetEntity<ApplicationUserRole>();
+                    var courses = ctx.GetEntity<Course>();
+                    var userCourses = ctx.GetEntity<UsersPerCourse>();
+
+                    var queryRoles = (
+                        from r in roles
+                        from ur in userRoles.Where(x => x.RoleId == r.Id)
+                        select new
+                        {
+                            UserId = ur.UserId,
+                            Role = r.Name
+                        }
+                    ).AsQueryable(); //el sql todavia no es ejecuado queda en memoria
+
+                    var query = (
+                        from u in user
+                        select new UserForGridView
+                        {
+                            Id = u.Id,
+                            FullName = u.Name + " " + u.LastName,
+                            Email = u.Email,
+                            CoursesCreated = courses.Where(x => x.AuthorId == u.Id).Count(),
+                            CoursesTaken = userCourses.Where(x => x.UserId == u.Id).Count(),
+                            Roles = queryRoles.Where(x => x.UserId == u.Id).Select(x => x.Role).ToList()
+                        }
+                    ).AsQueryable(); //query va a quedar pendiente
+
+                    // Order by
+                    if (grid.columna == "FullName")
+                    {
+                        query = grid.columna_orden == "DESC" ? query.OrderByDescending(x => x.FullName)
+                                                             : query.OrderBy(x => x.FullName);
+                    }
+
+                    var data = query.Skip(grid.pagina)
+                                    .Take(grid.limite)
+                                    .ToList();
+
+                    var total = query.Count();
+
+                    grid.SetData(data, total);
+                }
+            }
+            catch (Exception e)
+            {
+                logger.Error(e.Message);
+            }
+
+            return grid.responde();
+        }
     }
 }

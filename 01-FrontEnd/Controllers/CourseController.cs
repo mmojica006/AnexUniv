@@ -4,6 +4,7 @@ namespace FrontEnd.Controllers
 {
     public class CourseController : Controller
     {
+     
         [Route("course/{id}/{slug}")]
         public ActionResult Index(int id, string slug)
         {
